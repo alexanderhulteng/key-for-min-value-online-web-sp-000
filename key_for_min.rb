@@ -18,7 +18,13 @@ def key_for_min_value(name_hash)
      end
 
 end
+
+if name_hash == {
+  
+}
+return nil
+else
  return d_key
 
-
+end
 end
