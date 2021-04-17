@@ -8,9 +8,7 @@ def key_for_min_value(name_hash)
   d_value= 1000
   d_key= 0
 
-if name_a == {}
-  return nil
-else
+
  name_a.each do |i|
 
      if i[1] < d_value
